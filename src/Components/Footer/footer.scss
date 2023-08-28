@@ -375,8 +375,42 @@
 
 }
 
-@media screen and (min-width: 2560){
+@media screen and (min-width: 2500){
     .footer{
-        padding: 15rem 0;;
+        padding: 20rem 0;
+        .secContent{
+            .footerCard{
+                padding: 4rem 1rem;
+
+                .footerIntro{
+                    .footerParagraph{
+                        font-size: 15px;
+                        color: var(--textColor);
+                    }
+
+                    .footerSocials{
+                        column-gap: .5rem;
+                        .icon{
+                            color: var(--textColor);
+                            font-size: 25px;
+                            &:hover{
+                                color: var(--PrimaryColor);
+                            }
+                        }
+                    }
+                }
+
+                .footerLinks{
+                    .linkGroup{
+                        .footerList{
+                            font-size: 16px;
+                            padding: 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+        
+
     }
 }
